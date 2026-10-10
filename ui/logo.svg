@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">KioskGuard App Icon</title>
+  <desc id="desc">A shield and padlock protecting a computer monitor, with two blocked monitors behind it.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="900" y2="940" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#142B4A"/>
+      <stop offset="1" stop-color="#081525"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="300" y1="250" x2="730" y2="680" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#39D9C8"/>
+      <stop offset="1" stop-color="#159CBE"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="512" y1="382" x2="512" y2="850" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DCEAF2"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#02070D" flood-opacity=".42"/>
+    </filter>
+  </defs>
+
+  <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bg)"/>
+
+  <!-- Blocked side monitors -->
+  <g opacity=".34" stroke="#8DB3C7" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="120" y="300" width="300" height="240" rx="34"/>
+    <path d="M270 540v90m-80 0h160"/>
+    <path d="M158 338l224 164"/>
+
+    <rect x="604" y="300" width="300" height="240" rx="34"/>
+    <path d="M754 540v90m-80 0h160"/>
+    <path d="M642 502l224-164"/>
+  </g>
+
+  <!-- Main monitor -->
+  <g filter="url(#shadow)">
+    <rect x="240" y="206" width="544" height="420" rx="64" fill="#0B2138" stroke="#BCE8F0" stroke-width="28"/>
+    <rect x="286" y="252" width="452" height="310" rx="34" fill="url(#screen)"/>
+    <circle cx="512" cy="594" r="10" fill="#BCE8F0"/>
+    <path d="M512 626v106" stroke="#BCE8F0" stroke-width="34" stroke-linecap="round"/>
+    <path d="M390 748h244" stroke="#BCE8F0" stroke-width="34" stroke-linecap="round"/>
+  </g>
+
+  <!-- Shield -->
+  <g filter="url(#shadow)">
+    <path d="M512 368c82 56 154 68 222 76v154c0 140-84 236-222 298-138-62-222-158-222-298V444c68-8 140-20 222-76Z"
+          fill="url(#shield)" stroke="#0B2138" stroke-width="28" stroke-linejoin="round"/>
+    <path d="M434 598v-48c0-44 34-80 78-80s78 36 78 80v48"
+          fill="none" stroke="#0B2138" stroke-width="34" stroke-linecap="round"/>
+    <rect x="400" y="582" width="224" height="176" rx="40" fill="#0B2138"/>
+    <circle cx="512" cy="657" r="24" fill="#39D9C8"/>
+    <path d="M512 678v38" stroke="#39D9C8" stroke-width="22" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+StartupMode=random
+StartupMedia=
+StartupFit=fill
+BlockerStyle=ocean
+BlockerMedia=
+BlockerFit=fill
+ShowBlockerText=1
+BlockerMessage=VGhpcyBkaXNwbGF5IGlzIHByb3RlY3RlZCBkdXJpbmcgdGhlIGN1cnJlbnQgc2Vzc2lvbi4=
+BlockerTextColor=#ffffff
+Monitor=0
+Hotkey=38
+Ctrl=1
+Alt=0
+Shift=0
+HotkeyDisplay=Ctrl + ArrowUp
+ThemeBg=#07090d
+ThemeSurface=#121722
+ThemeAccent=#39d9c8
+ThemeText=#f7f9fc

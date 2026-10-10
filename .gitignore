@@ -1,0 +1,22 @@
+# Runtime browser profiles and generated artwork
+/WebView2Data/
+/WebView2BlockerData/
+/WebView2SplashData/
+/ui/cache/
+
+# Local agent state, backups, logs, and build intermediates
+/.agents/
+*.original
+*.log
+*.tmp
+*.bak
+.vs/
+bin/
+obj/
+
+# Credentials and local environment files
+.env
+.env.*
+*.pfx
+*.p12
+*.key
